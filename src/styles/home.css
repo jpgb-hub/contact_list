@@ -1,0 +1,64 @@
+/* Estilo general para el contenedor */
+div {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+/* Estilo para el encabezado y botón de agregar contacto */
+h2 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para la tarjeta de contacto */
+.contact-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover; /* Esto hará que la imagen se ajuste dentro del contenedor */
+}
+
+.contact-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-actions button {
+    margin-left: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.contact-actions button:hover {
+    background-color: #ddd;
+}
+
+/* Iconos específicos para darles un poco de espacio */
+.MdEdit, .MdDelete {
+    margin-right: 5px;
+}
+
