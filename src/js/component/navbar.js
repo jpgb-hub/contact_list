@@ -5,6 +5,7 @@ export const Navbar = () => {
 	return (
 		<nav className="navbar navbar-light bg-light mb-3">
 			<div className="ml-auto">
+				Bienvenidos a mi agenda de Contactos
 			</div>
 		</nav>
 	);

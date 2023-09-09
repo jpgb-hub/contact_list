@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { MdMail, MdPhone, MdEdit, MdDelete, MdAdd } from 'react-icons/md';
 import { useNavigate } from 'react-router-dom';
-import "../../styles/home.css"
+import "../../styles/home.css";
 
 function Home() {
     const [contacts, setContacts] = useState([]);
